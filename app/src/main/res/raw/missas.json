@@ -1,0 +1,23 @@
+[
+  {
+    "descricao": "Domingo (Manhã)",
+    "horario": "08:00"
+  },
+  {
+    "descricao": "Domingo (Noite) - Transmissão ao vivo pela Rádio Araranguá AM 1.290 Khz",
+    "horario": "19:00"
+  },
+  {
+    "descricao": "Quarta-Feira - Missa do Trabalhador",
+    "horario": "12:30"
+  },
+  {
+    "descricao": "Sexta-Feira - Missa da Saúde",
+    "horario": "15:30"
+  },
+  {
+    "descricao": "Sábado",
+    "horario": "19:00"
+  }
+]
+

@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="about_dialog_text">
+        <![CDATA[
+
+            <b>Desenvolvido por:</b><br>
+            <p>Josias Maceda & Ministério Voz Da Igreja</p><br>
+            <p>Confira outros aplicativos do desenvolvedor</p><br>
+
+        ]]>
+    </string>
+
+
+    <string name="app_name">WebRadio</string>
+    <string name="action_settings">Settings</string>
+    <string name="carregando">Carregando...</string>
+    <string name="fale_conosco">Fale Conosco</string>
+    <string name="peca_sua_oracao">Peça sua oração</string>
+    <string name="facebook">Facebook</string>
+    <string name="avaliar">Avaliar</string>
+    <string name="mais">Mais</string>
+    <string name="sobre">Sobre</string>
+    <string name="compartilhar">Compartilhar</string>
+    <string name="error_conexao_indisponivel">Erro conexão indisponível</string>
+    <string name="radio">Rádio</string>
+    <string name="missas">Missas</string>
+    <string name="sobre_aplicativo">Sobre o aplicativo</string>
+    <string name="ver_aplicativos">Ver aplicativos</string>
+    <string name="uri_market_developer">market://developer?id=Maceda+Droid</string>
+    <string name="uri_page_play_developer">https://play.google.com/store/apps/developer?id=Maceda+Droid</string>
+    <string name="ocorreu_erro_buscar_dados">Ocorreu um erro ao buscar dados</string>
+    <string name="sem_conexao_internet">Sem conexão com a internet. Verifique sua conexão Wifi/3g</string>
+    <string name="radio_offline">Radio está OffLine no momento</string>
+    <string name="pausando_web_radio">" Pausando WebRadio"</string>
+    <string name="subtitle_app">Nossa Senhora Mãe dos Homens</string>
+    <string name="texto_para_compartilhar">Aplicativo RadioOnLine da Paroquia Nossa Senhora Mãe dos Homens https://play.google.com/store/apps/details?id=br.com.maceda.android.radioonline</string>
+    <string name="uri_telefone_nsmh">tel:4835220271</string>
+    <string name="uri_facebook_nsmh">https://www.facebook.com/pmaedoshomens/?fref=ts</string>
+    <string name="pedido_de_oracao">Pedido de Oração</string>
+    <string name="gostaria_de_pedir">Gostaria de pedir uma oração em nome de ..</string>
+    <string name="email_contato">contato@pmaedoshomens.com.br</string>
+    <string name="contato">Contato</string>
+</resources>

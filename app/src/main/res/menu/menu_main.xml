@@ -1,0 +1,51 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.com.maceda.android.radioonline.MainActivity">
+
+    <item android:id="@+id/action_compartilhar"
+        android:orderInCategory="100"
+        android:title="@string/compartilhar"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_share"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"/>
+
+    <item
+        android:id="@+id/action_fale_conosco"
+        android:orderInCategory="100"
+        android:title="@string/fale_conosco"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_peca_oracao"
+        android:orderInCategory="101"
+        android:title="@string/peca_sua_oracao"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_ligar"
+        android:orderInCategory="102"
+        android:title="Ligar para Paróquia"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_facebook"
+        android:orderInCategory="103"
+        android:title="@string/facebook"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_avaliar"
+        android:title="@string/avaliar"
+        android:orderInCategory="104"
+        app:showAsAction="never" />
+
+    <item android:title="@string/mais" android:orderInCategory="105">
+        <menu>
+            <item
+                android:id="@+id/action_sobre"
+                android:title="@string/sobre"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+</menu>
