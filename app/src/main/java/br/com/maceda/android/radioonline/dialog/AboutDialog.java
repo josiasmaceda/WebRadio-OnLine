@@ -1,6 +1,7 @@
 package br.com.maceda.android.radioonline.dialog;
 
 import android.app.Dialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
@@ -57,7 +58,7 @@ public class AboutDialog extends DialogFragment {
                 .setNegativeButton(getContext().getString(R.string.ver_aplicativos), new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        aplicativosMaceda();
+                        appsMaceda();
                     }
                 })
                 .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
@@ -66,6 +67,17 @@ public class AboutDialog extends DialogFragment {
                         dialogInterface.dismiss();
                     }
                 }).create();
+    }
+
+    public void appsMaceda(){
+        try {
+            Uri marketUri = Uri.parse("market://search?q=pub:Maceda");
+            startActivity(new Intent(Intent.ACTION_VIEW).setData(marketUri));
+        } catch (Exception e) {
+            Uri uri = android.net.Uri.parse(getContext().getString(R.string.uri_page_play_developer));
+            Intent it = new Intent(Intent.ACTION_VIEW, uri);
+            startActivity(it);
+        }
     }
 
     private void aplicativosMaceda() {

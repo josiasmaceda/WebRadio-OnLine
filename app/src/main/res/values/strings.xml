@@ -26,8 +26,8 @@
     <string name="missas">Missas</string>
     <string name="sobre_aplicativo">Sobre o aplicativo</string>
     <string name="ver_aplicativos">Ver aplicativos</string>
-    <string name="uri_market_developer">market://developer?id=Maceda+Droid</string>
-    <string name="uri_page_play_developer">https://play.google.com/store/apps/developer?id=Maceda+Droid</string>
+    <string name="uri_market_developer">market://developer?id=Maceda</string>
+    <string name="uri_page_play_developer">https://play.google.com/store/apps/developer?id=Maceda</string>
     <string name="ocorreu_erro_buscar_dados">Ocorreu um erro ao buscar dados</string>
     <string name="sem_conexao_internet">Sem conexão com a internet. Verifique sua conexão Wifi/3g</string>
     <string name="radio_offline">Radio está OffLine no momento</string>
